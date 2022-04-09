@@ -1,0 +1,272 @@
+ body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* Menu Inicial */
+header {
+	background: linear-gradient(180deg, #000000, #767a7d);
+	
+}
+
+#menu {
+	position: relative;
+	width: 100%;
+	
+}
+
+#menu nav {
+	position: absolute;
+	top: 110px;
+	left: 800px;
+}
+
+#menu nav li {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+#menu nav a {
+	text-transform: uppercase;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+#menu nav a:hover {
+	color: rgb(126, 139, 147);
+	text-decoration: underline;
+	font-size: 23px;
+	transition: 0.3s;
+}
+
+/* background body */
+main {
+	background: #767a7d;
+}
+
+/* -------------------------------------- index ------------------------------------------ */
+/* Mostruario */
+#mostruario li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 10px 1.5%;
+	padding: 10px 10px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+#mostruario p {
+	margin: 10px 0;
+}
+
+.nome {
+	font-style: italic;
+	font-weight: 400;
+}
+
+.preco {
+	color: #1eb916;
+	font-weight: bold;
+}
+
+/* Cadastro */
+#cadastro {
+	margin: 0 20px;
+}
+
+#cadastro p {
+	font-size: 30px;
+	color: #ee1010;
+	background-color: #530303;
+	font-weight: bold;
+}
+
+.cadastro {
+	margin: 20px 0 0 0;
+}
+
+form label {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 200px;
+	border-radius: 10px;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	width:200px;
+	padding: 15px 0;
+	background: rgb(0, 0, 0);
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: rgb(1, 54, 86);
+	transform: scale(1.1);
+}
+/* -------------------------------------- contato ------------------------------------------ */
+
+/* contato */
+.contato {
+	padding: 15px 15px;
+}
+
+form .mensagem {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 500px;
+	border-radius: 10px;
+}
+
+.opcao {
+	margin: 15px 15px;
+}
+
+.opcao legend {
+	margin: 10px 0;
+}
+
+table {
+	padding: 20px 150px;
+	text-align: center;
+	margin: 0 0 0 20px;
+}
+
+thead {
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+
+td, th {
+	border: 1px solid #000000;
+	padding: 8px 15px;
+}
+
+/* -------------------------------------- sobrenos ------------------------------------------ */
+
+/* Sobre Nós */
+#sobre h1 {
+	font-size: 22px;
+	font-weight: bold;
+	margin: 0 5px;
+}
+
+#sobre p {
+	font-weight: 400;
+	font-style: italic;
+	margin: 0 5px;
+
+}
+
+#sobre img {
+	display: inline-block;
+}
+
+#sobre .selo {
+	position: absolute;
+	display: inline-block;
+	bottom: 130px;
+	left: 330px;
+	font-size: 30px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+/* -------------------------------------- camisas ------------------------------------------ */
+#parte1 {
+	margin: 0 0 0 70px;
+}
+
+#parte2 {
+	position: absolute;
+	display: inline-block;
+	top: 233px;
+	left: 493px;
+}
+
+#parte2 h1 {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+#parte2 .preco {
+	font-size: 30px;
+	font-style: normal;
+}
+
+#parte2 p {
+	font-size: 18px;
+	font-style: italic;
+}
+
+.comprar{
+	width:100px;
+	padding: 15px 0;
+	background: rgb(0, 0, 0);
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 0.5s all;
+	cursor: pointer;
+}
+
+#comprar .comprar {
+	width: 300px;
+	margin: 30px 0;
+	background: #0dff00;
+	color: #000000;
+}
+
+.comprar:hover {
+	background: rgb(1, 54, 86);
+	transform: scale(1.1);
+}
+.comprar:active {
+	background-color: #ccd0d3;
+	transition: none;
+}
+
+/* rodapé */
+#final {
+	background: linear-gradient(180deg, #767a7d, #000000);
+	width: 100%;
+	padding: 100px 0;
+	position: relative;
+}
+#final .logo {
+	position: absolute;
+	left: 400px;
+	bottom:5px ;
+}
+
+#final p {
+	color: #ffffff;
+	position: absolute;
+	text-align: center;
+	left: 550px;
+	bottom: 40px;
+}

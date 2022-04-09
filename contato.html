@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Jota F.C.</title>
+
+		<link rel="shortcut icon" href="logo.png">
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	</head>
+    <body>
+        <header>
+			<div id="menu">
+				<h1><a href="index.html"><img src="img/logo-trans.png" alt="logo" height="250" width="auto"></a></h1>
+
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                        <li><a href="sobre.html">Sobre Nós</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+        <main>
+            <section id="contato">
+                <form class="contato">
+                    <label for="nomesobrenome">Nome e sobrenome</label>
+                    <input type="text" id="nomesobrenome" class="input-padrao" required>
+    
+                    <label for="email">Email</label>
+                    <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+    
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+    
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" class="input-padrao" required placeholder="mínimo de 8 caracteres">
+
+                    <label for="mensagem">Mensagem</label>
+				    <textarea cols="70" rows="10" id="mensagem" class="mensagem"required></textarea>
+                
+                    <input type="submit" value="Criar minha conta" class="enviar">
+
+                    <fieldset class="opcao">
+                        <legend>Como prefere o nosso contato?</legend>
+                        <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
+                        
+                        <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
+                        
+                        <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
+                    </fieldset>
+                </form>
+
+                <table class="tabela">
+                    <tr>
+                        <td>Dia</td>
+                        <td>Horário</td>
+                    </tr>
+                    <tr>
+                        <td>Segunda à Sexta</td>
+                        <td>8h ~ 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Finais de Semana</td>
+                        <td>7h ~ 15h</td>
+                    </tr>
+                </table>
+            </section>
+        </main>
+    
+        <footer id="final">
+            <img class="logo" src="img/logo-trans.png" alt="logo" height="150" width="auto">
+            <p class="copyright">&copy; Copyright SRJ Martins Ltda - 2022</p>
+        </footer>
+    </body>
+</html>
